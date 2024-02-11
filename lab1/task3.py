@@ -7,3 +7,6 @@ def count_words(text):
         if len(word) % 2 == 0:
             count += 1
     return count
+
+text = "Квадрат гипотенузы равен сумме квадратов катета"
+print(count_words(text))
