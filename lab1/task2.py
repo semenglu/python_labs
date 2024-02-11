@@ -8,5 +8,4 @@ def shuffle_words(sentence):
     return shuffled_sentence
 
 sentence = "Квадрат гипотенузы равен сумме квадратов катетов"
-shuffled_sentence = shuffle_words(sentence)
-print(shuffled_sentence)
+print(shuffle_words(sentence))
